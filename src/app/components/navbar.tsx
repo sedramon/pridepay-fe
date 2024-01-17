@@ -84,6 +84,20 @@ export default function Navbar() {
               >
                 PERSONAL & BUSINESS
               </Link>
+              <Link
+                href="/users/login"
+                className={`nav-link mb-1 ${styles["navbar-custom-nav-link"]}`}
+                onClick={handleLinkClick}
+              >
+                LOG IN
+              </Link>
+              <Link
+                href="/users/signup"
+                className={`nav-link mb-1 ${styles["navbar-custom-nav-link"]}`}
+                onClick={handleLinkClick}
+              >
+                SIGN UP
+              </Link>
             </div>
           </Offcanvas.Body>
         </Offcanvas>
